@@ -24,3 +24,19 @@ Geliştiriciler için sade, esnek ve kolay genişletilebilir bir temel sunar.
 ```bash
 git clone https://github.com/whuq3ht/discord-bot-python.git
 cd discord-bot-python
+
+2. Gerekli paketleri yükleyin:
+
+pip install -r requirements.txt
+
+3. config.json dosyasını düzenleyin:
+
+{
+  "token": "BURAYA_BOT_TOKENINIZI_YAZIN",
+  "prefix": "!"
+}
+
+
+4. Botu başlatın:
+
+python bot.py
